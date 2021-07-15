@@ -1,2 +1,2 @@
-rootProject.name = "cert"
 include ':app'
+rootProject.name = "cert"
