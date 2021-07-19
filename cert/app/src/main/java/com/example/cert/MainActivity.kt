@@ -4,9 +4,19 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
+
+    private val testScheduleButton: ImageButton by lazy {
+        findViewById(R.id.testSchedule)
+    }
+
+    private val testInfoButton: ImageButton by lazy {
+        findViewById(R.id.testInfo)
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -25,5 +35,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        testScheduleButton.setOnClickListener {
+            val intent = Intent(this, TestSchedule::class.java)
+            startActivity(intent)
+        }
+
+        testInfoButton.setOnClickListener {
+            val intent = Intent(this, TestInfo::class.java)
+            startActivity(intent)
+        }
     }
 }

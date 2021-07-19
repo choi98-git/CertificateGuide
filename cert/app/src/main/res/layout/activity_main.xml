@@ -15,7 +15,7 @@
         android:layout_marginTop="20dp"
         android:text="정산기 가이드북"
         android:textColor="#00ff00"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_gravity="center"
         android:text="D-day"
         android:textColor="#ff0000"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
 
@@ -49,7 +49,7 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/infor"
+            android:id="@+id/testInfo"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@color/white"
@@ -62,7 +62,7 @@
             android:layout_gravity="center"
             android:text=" 정보처리산업기사란?"
             android:textColor="#00fff0"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"></TextView>
     </LinearLayout>
 
@@ -73,7 +73,7 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/schedule"
+            android:id="@+id/testSchedule"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@color/white"
@@ -86,7 +86,7 @@
             android:layout_gravity="center"
             android:text=" 시험 일정 및 정보"
             android:textColor="#00fff0"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"></TextView>
     </LinearLayout>
 
@@ -110,7 +110,7 @@
             android:layout_gravity="center"
             android:text=" 공부법 및 강의"
             android:textColor="#00fff0"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"></TextView>
     </LinearLayout>
 
@@ -134,7 +134,7 @@
             android:layout_gravity="center"
             android:text=" 단어 암기 및 기출풀기"
             android:textColor="#00fff0"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"></TextView>
     </LinearLayout>
 
