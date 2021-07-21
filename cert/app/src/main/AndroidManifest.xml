@@ -16,6 +16,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DdayActivity">
+        </activity>
+        <activity
+            android:name=".TestSchedule">
+        </activity>
+
+        <activity
+            android:name=".TestInfo">
+        </activity>
+        <activity
+            android:name=".WhereUsing">
+        </activity>
+        <activity
+            android:name=".StudyActivity">
+        </activity>
+        <activity
+            android:name=".WordStudy">
+        </activity>
+        <activity
+            android:name=".WordTest">
+        </activity>
+        <activity
+            android:name=".WrittenTest">
+        </activity>
     </application>
 
 </manifest>

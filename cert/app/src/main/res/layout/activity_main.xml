@@ -11,22 +11,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="정산기 가이드북"
-        android:textSize="30dp"
-        android:layout_margin="20dp"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="정산기 가이드북"
         android:textColor="#00ff00"
-        android:textStyle="bold"/>
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/day"
+        android:id="@+id/dDay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="D-day"
-        android:textStyle="bold"
         android:textColor="#ff0000"
-        android:textSize="20dp"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/dDaySetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="D-day 설정"></Button>
 
     <ImageView
         android:id="@+id/imageView"
@@ -37,61 +45,64 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
         android:orientation="horizontal">
+
         <ImageButton
-            android:id="@+id/infor"
+            android:id="@+id/testInfo"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/infor"
+            android:background="@color/white"
             android:scaleType="fitCenter"
-            android:background="@color/white"/>
+            app:srcCompat="@drawable/infor" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text=" 정보처리산업기사란?"
-            android:textStyle="bold"
             android:textColor="#00fff0"
-            android:textSize="20dp"></TextView>
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
         android:orientation="horizontal">
+
         <ImageButton
-            android:id="@+id/schedule"
+            android:id="@+id/testSchedule"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/schedule"
+            android:background="@color/white"
             android:scaleType="fitCenter"
-            android:background="@color/white"/>
+            app:srcCompat="@drawable/schedule" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text=" 시험 일정 및 정보"
-            android:textStyle="bold"
             android:textColor="#00fff0"
-            android:textSize="20dp"></TextView>
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
         android:orientation="horizontal">
+
         <ImageButton
             android:id="@+id/youtube"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/youtube"
+            android:background="@color/white"
             android:scaleType="fitCenter"
-            android:background="@color/white"/>
+            app:srcCompat="@drawable/youtube" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -99,22 +110,23 @@
             android:layout_gravity="center"
             android:text=" 공부법 및 강의"
             android:textColor="#00fff0"
-            android:textStyle="bold"
-            android:textSize="20dp"></TextView>
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
         android:orientation="horizontal">
+
         <ImageButton
             android:id="@+id/study"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/study"
+            android:background="@color/white"
             android:scaleType="fitCenter"
-            android:background="@color/white"/>
+            app:srcCompat="@drawable/study" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -122,8 +134,8 @@
             android:layout_gravity="center"
             android:text=" 단어 암기 및 기출풀기"
             android:textColor="#00fff0"
-            android:textStyle="bold"
-            android:textSize="20dp"></TextView>
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
     </LinearLayout>
 
     <TextView
@@ -131,8 +143,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textStyle="bold"
-        android:text="Version: Android 6.0" />
-
+        android:text="Version: Android 6.0"
+        android:textStyle="bold" />
 
 </LinearLayout>
