@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpinnerStyle">
+        <!--아이템을 나누는 선 색상-->
+        <item name="android:divider">@color/teal_200</item>
+        <!--선 높이-->
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="Theme.AppCompat">
+        <item name="android:dropDownListViewStyle">@style/SpinnerStyle</item>
+    </style>
+
+</resources>

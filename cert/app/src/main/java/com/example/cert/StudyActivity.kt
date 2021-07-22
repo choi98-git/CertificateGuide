@@ -39,7 +39,7 @@ class StudyActivity : AppCompatActivity() {
             }
 
             wordStudy.setOnCheckedChangeListener { buttonView, isChecked ->
-                if (wordStudy.isChecked) {
+                if (isChecked) {
                     writtenTest.isChecked = false
                     wordTest.isChecked = false
                 }
