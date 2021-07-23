@@ -17,6 +17,14 @@ class MainActivity : AppCompatActivity() {
         findViewById(R.id.testInfo)
     }
 
+    private val studyButton: ImageButton by lazy{
+        findViewById(R.id.study)
+    }
+
+    private val channelButton: ImageButton by lazy{
+        findViewById(R.id.youtube)
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -42,6 +50,16 @@ class MainActivity : AppCompatActivity() {
 
         testInfoButton.setOnClickListener {
             val intent = Intent(this, TestInfo::class.java)
+            startActivity(intent)
+        }
+
+        channelButton.setOnClickListener {
+            val intent = Intent(this,HowToStudy::class.java)
+            startActivity(intent)
+        }
+
+        studyButton.setOnClickListener {
+            val intent = Intent(this, StudyActivity::class.java)
             startActivity(intent)
         }
     }

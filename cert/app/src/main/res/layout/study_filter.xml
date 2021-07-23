@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <CheckBox
+        android:id="@+id/writtenTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="필기 기출 풀기"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <CheckBox
+        android:id="@+id/wordStudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실기 단어 암기"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <CheckBox
+        android:id="@+id/wordTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실기 단어 시험"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_gravity="end">
+
+        <Button
+            android:id="@+id/selectButton"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택"
+            />
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            />
+
+    </LinearLayout>
+</LinearLayout>

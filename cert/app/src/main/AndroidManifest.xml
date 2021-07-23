@@ -29,6 +29,21 @@
         <activity
             android:name=".WhereUsing">
         </activity>
+        <activity
+            android:name=".StudyActivity">
+        </activity>
+        <activity
+            android:name=".WordStudy">
+        </activity>
+        <activity
+            android:name=".WordTest">
+        </activity>
+        <activity
+            android:name=".WrittenTest">
+        </activity>
+        <activity
+            android:name=".HowToStudy">
+        </activity>
     </application>
 
 </manifest>

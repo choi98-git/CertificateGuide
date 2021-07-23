@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Subject">
+        <item>과목</item>
+        <item>데이터베이스</item>
+        <item>전자계산기구조</item>
+        <item>시스템분석 및 설계</item>
+        <item>운영체제</item>
+        <item>정보통신개론</item>
+    </string-array>
+
+    <string-array name="Date">
+        <item>시험년도</item>
+        <item>2020년 3회</item>
+        <item>2020년 2회</item>
+        <item>2020년 1회</item>
+        <item>2019년 3회</item>
+        <item>2019년 2회</item>
+        <item>2019년 1회</item>
+    </string-array>
+</resources>

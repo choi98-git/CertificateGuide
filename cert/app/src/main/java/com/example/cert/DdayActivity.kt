@@ -1,6 +1,5 @@
 package com.example.cert
 
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -46,7 +45,6 @@ class DdayActivity : AppCompatActivity() {
 
             dDayText.text = "$dYear-$dMonth-$dDay"
         }
-
 
 
         // D-Day 설정 후 메인 화면으로 이동
