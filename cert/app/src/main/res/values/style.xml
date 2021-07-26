@@ -10,5 +10,4 @@
     <style name="SpinnerTheme" parent="Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@style/SpinnerStyle</item>
     </style>
-
 </resources>

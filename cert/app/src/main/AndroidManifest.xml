@@ -35,11 +35,17 @@
         <activity
             android:name=".WordStudy">
         </activity>
+        android:windowSoftInputMode="adjustResize"
         <activity
-            android:name=".WordTest">
+            android:name=".WordTest"
+            android:windowSoftInputMode="adjustResize"
+            >
         </activity>
         <activity
             android:name=".WrittenTest">
+        </activity>
+        <activity
+            android:name=".HowToStudy">
         </activity>
     </application>
 
