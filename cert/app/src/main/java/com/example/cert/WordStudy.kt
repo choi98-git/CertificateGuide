@@ -33,7 +33,7 @@ class WordStudy: AppCompatActivity() {
         )
         remoteConfig.fetchAndActivate().addOnCompleteListener {
             if(it.isSuccessful){
-                val words = parseWordsJson(remoteConfig.getString("words"))
+                val words = parseWordsJson(remoteConfig.getString("words")).shuffled()
                 val isWordRevealed = remoteConfig.getBoolean("is_word_revealed")
 
                 displayWordsPager(words,isWordRevealed)
