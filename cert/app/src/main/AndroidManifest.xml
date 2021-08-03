@@ -47,6 +47,9 @@
         <activity
             android:name=".HowToStudy">
         </activity>
+        <activity android:name=".StartTest">
+
+        </activity>
     </application>
 
 </manifest>

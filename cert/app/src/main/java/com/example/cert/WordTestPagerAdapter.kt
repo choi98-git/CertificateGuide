@@ -49,17 +49,19 @@ class WordTestPagerAdapter (
             submissionBtn.setOnClickListener {
                 wordTextView.visibility = View.VISIBLE
                 when {
-                    wordAnswerEdt.text.toString().equals(word.word) -> {
-                        AlertDialog.Builder(itemView.context)
-                            .setTitle("정답 확인")
-                            .setMessage("정답입니다!!\n 정답: ${word.word}")
-                            .setPositiveButton("확인") { _, _ -> }
-                            .create()
-                            .show()
-                    }
-                    wordAnswerEdt.text.toString().equals("") -> {
-                        Toast.makeText(itemView.context,"정답을 입력해 주세요!!", Toast.LENGTH_LONG).show()
-                        wordTextView.visibility = View.GONE
+                    word.word.indexOf(wordAnswerEdt.text.toString()) > -1 -> {
+                        when {
+                            wordAnswerEdt.text.toString().equals("") -> {
+                                Toast.makeText(itemView.context,"정답을 입력해 주세요!!", Toast.LENGTH_LONG).show()
+                                wordTextView.visibility = View.GONE
+                            }
+                            else -> AlertDialog.Builder(itemView.context)
+                                .setTitle("정답 확인")
+                                .setMessage("정답입니다!!\n 정답: ${word.word}")
+                                .setPositiveButton("확인") { _, _ -> }
+                                .create()
+                                .show()
+                        }
                     }
                     else -> {
                         AlertDialog.Builder(itemView.context)

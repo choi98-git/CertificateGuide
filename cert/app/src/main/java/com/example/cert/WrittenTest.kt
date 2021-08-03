@@ -1,11 +1,17 @@
 package com.example.cert
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
 
 class WrittenTest: AppCompatActivity() {
+
+    private val startButton: Button by lazy {
+        findViewById<Button>(R.id.startButton)
+    }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,5 +27,9 @@ class WrittenTest: AppCompatActivity() {
         testDateSpinner.adapter = ArrayAdapter.createFromResource(this, R.array.Date,
             android.R.layout.simple_spinner_item)
 
+        startButton.setOnClickListener {
+           val intent = Intent(this,StartTest::class.java)
+            startActivity(intent)
+        }
     }
 }
