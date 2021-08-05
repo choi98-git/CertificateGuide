@@ -37,18 +37,20 @@
         android:layout_margin="10dp"
         android:layout_gravity="end">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/selectButton"
             android:layout_marginEnd="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="선택"
+            android:background="@drawable/btn_go"
             />
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/cancelButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="취소"
+            android:background="@drawable/btn_go"
             />
 
     </LinearLayout>
