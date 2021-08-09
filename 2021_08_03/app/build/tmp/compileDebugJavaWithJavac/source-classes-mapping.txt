@@ -1,0 +1,44 @@
+com/example/cert/databinding/PracticalBinding.java
+ com.example.cert.databinding.PracticalBinding
+com/example/cert/databinding/ThirdfragmentBinding.java
+ com.example.cert.databinding.ThirdfragmentBinding
+com/example/cert/databinding/WrittenTestBinding.java
+ com.example.cert.databinding.WrittenTestBinding
+com/example/cert/databinding/TestInfoBinding.java
+ com.example.cert.databinding.TestInfoBinding
+com/example/cert/databinding/TipBinding.java
+ com.example.cert.databinding.TipBinding
+com/example/cert/databinding/WrittenBinding.java
+ com.example.cert.databinding.WrittenBinding
+com/example/cert/databinding/StudyFilterBinding.java
+ com.example.cert.databinding.StudyFilterBinding
+com/example/cert/databinding/WordStudyBinding.java
+ com.example.cert.databinding.WordStudyBinding
+com/example/cert/databinding/WordTestBinding.java
+ com.example.cert.databinding.WordTestBinding
+com/example/cert/databinding/ActivityHowToStudyBinding.java
+ com.example.cert.databinding.ActivityHowToStudyBinding
+com/example/cert/databinding/StartTestBinding.java
+ com.example.cert.databinding.StartTestBinding
+com/example/cert/databinding/TestScheduleBinding.java
+ com.example.cert.databinding.TestScheduleBinding
+com/example/cert/databinding/ItemWordBinding.java
+ com.example.cert.databinding.ItemWordBinding
+com/example/cert/databinding/UsecertiBinding.java
+ com.example.cert.databinding.UsecertiBinding
+com/example/cert/databinding/FourthfragmentBinding.java
+ com.example.cert.databinding.FourthfragmentBinding
+com/example/cert/BuildConfig.java
+ com.example.cert.BuildConfig
+com/example/cert/databinding/ItemWordTestBinding.java
+ com.example.cert.databinding.ItemWordTestBinding
+com/example/cert/databinding/MainfragmentBinding.java
+ com.example.cert.databinding.MainfragmentBinding
+com/example/cert/databinding/ItemTestBinding.java
+ com.example.cert.databinding.ItemTestBinding
+com/example/cert/databinding/ActivityDdayBinding.java
+ com.example.cert.databinding.ActivityDdayBinding
+com/example/cert/databinding/SecondfragmentBinding.java
+ com.example.cert.databinding.SecondfragmentBinding
+com/example/cert/databinding/ActivityMainBinding.java
+ com.example.cert.databinding.ActivityMainBinding

@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/thirdfragment.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/thirdfragment.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/word_test.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/word_test.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/start_test.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/start_test.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/written.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/written.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_test.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/item_test.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fourthfragment.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/fourthfragment.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tip.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/tip.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/test_schedule.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/test_schedule.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/word_study.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/word_study.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/practical.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/practical.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mainfragment.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/mainfragment.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/secondfragment.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/secondfragment.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_dday.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/activity_dday.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/test_info.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/test_info.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/usecerti.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/usecerti.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_word_test.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/item_word_test.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/written_test.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/written_test.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/study_filter.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/study_filter.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_word.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/item_word.xml"
+    },
+    {
+        "merged": "/Users/choi98/AndroidStudioProjects/cert/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_how_to_study.xml",
+        "source": "/Users/choi98/AndroidStudioProjects/cert/app/src/main/res/layout/activity_how_to_study.xml"
+    }
+]
