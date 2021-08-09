@@ -22,10 +22,10 @@
 
     <ImageView
         android:id="@+id/testImage"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="238dp"
+        android:layout_height="115dp"
         android:layout_marginTop="50dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/question" />
@@ -42,7 +42,7 @@
             android:id="@+id/firstAnswer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="5dp"
             android:text="1번 답" />
 
         <RadioButton
@@ -71,27 +71,17 @@
             app:layout_constraintTop_toBottomOf="@id/thirdAnswer" />
     </RadioGroup>
 
-    <Button
-        android:id="@+id/preButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="이전"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@id/nextButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/radioGroup" />
 
     <Button
-        android:id="@+id/nextButton"
+        android:id="@+id/correctButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="다음"
+        android:text="정답확인"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/preButton"
-        app:layout_constraintTop_toBottomOf="@id/radioGroup" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <TextView
         android:id="@+id/correctAnswer"

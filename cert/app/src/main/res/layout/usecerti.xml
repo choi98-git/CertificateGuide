@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
     tools:context=".WhereUsing">
 
     <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="쓰임"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.634"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/black"
-        android:textColor="@color/white"
-        android:text="쓰임"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/infoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text="소개"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.362"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/purple_200"
-        android:text="소개"
-        android:textColor="@color/black"
         tools:layout_editor_absoluteX="204dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -41,6 +42,7 @@
         android:layout_width="302dp"
         android:layout_height="99dp"
         android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
         android:src="@drawable/adver"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -57,8 +59,9 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="408dp"
-            android:layout_height="488dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="end"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -67,9 +70,9 @@
             app:layout_constraintVertical_bias="0.724">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:padding="20dp"
+                android:layout_width="380dp"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
                 android:text="자격 취득자는 정부기관, 언론기관, 교육 및 연구기관, 금융기관, 보험사, 병원 등 컴퓨터 시스템을 개발 및 운용하거나, 데이터 통신을 이용하여 정보처리를 시행하는 업체에 취업할 수 있으며 국가기술자격법에 의해 공공기관 및 일반기업 채용 시 그리고 보수, 승진, 전보, 신분보장 등에도 이용 가능하다."
                 android:textSize="20dp" />
 
@@ -79,14 +82,14 @@
 
     <Button
         android:id="@+id/exam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시험 접수!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="시험 접수!"
         tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="667dp" />
 

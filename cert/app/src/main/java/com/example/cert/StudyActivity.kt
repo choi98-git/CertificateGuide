@@ -60,7 +60,7 @@ class StudyActivity : AppCompatActivity() {
                 }
 
                 if (wordStudy.isChecked) {
-                    val intent = Intent(this, WordStudy::class.java)
+                    val intent = Intent(this, Memorization::class.java)
                     startActivity(intent)
                 }
 

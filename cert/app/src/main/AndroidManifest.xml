@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Cert">
+        <activity android:name=".StartTest"></activity>
+        <activity android:name=".Memorization" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,40 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DdayActivity">
-        </activity>
-        <activity
-            android:name=".TestSchedule">
-        </activity>
-
-        <activity
-            android:name=".TestInfo">
-        </activity>
-        <activity
-            android:name=".WhereUsing">
-        </activity>
-        <activity
-            android:name=".StudyActivity">
-        </activity>
-        <activity
-            android:name=".WordStudy">
-        </activity>
-        android:windowSoftInputMode="adjustResize"
+        <activity android:name=".DdayActivity" />
+        <activity android:name=".TestSchedule" />
+        <activity android:name=".TestInfo" />
+        <activity android:name=".WhereUsing" />
+        <activity android:name=".StudyActivity" />
         <activity
             android:name=".WordTest"
-            android:windowSoftInputMode="adjustResize"
-            >
-        </activity>
-        <activity
-            android:name=".WrittenTest">
-        </activity>
-        <activity
-            android:name=".HowToStudy">
-        </activity>
-        <activity android:name=".StartTest">
-
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".WrittenTest" />
+        <activity android:name=".HowToStudy" />
     </application>
 
 </manifest>

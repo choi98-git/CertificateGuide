@@ -6,11 +6,21 @@
     android:orientation="vertical"
     android:padding="15dp">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="정산기 공부하기"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
     <CheckBox
         android:id="@+id/writtenTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="필기 기출 풀기"
+        android:layout_gravity="center_vertical"
         tools:layout_editor_absoluteX="60dp"
         tools:layout_editor_absoluteY="78dp" />
 
@@ -19,6 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="실기 단어 암기"
+        android:layout_gravity="center_vertical"
         tools:layout_editor_absoluteX="182dp"
         tools:layout_editor_absoluteY="78dp" />
 
@@ -27,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="실기 단어 시험"
+        android:layout_gravity="center_vertical"
         tools:layout_editor_absoluteX="177dp"
         tools:layout_editor_absoluteY="153dp" />
 
@@ -35,20 +47,22 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="10dp"
-        android:layout_gravity="end">
+        android:layout_gravity="center">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/selectButton"
             android:layout_marginEnd="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="선택"
+            android:background="@drawable/btn_go"
             />
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/cancelButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="취소"
+            android:background="@drawable/btn_go"
             />
 
     </LinearLayout>

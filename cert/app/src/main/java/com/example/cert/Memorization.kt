@@ -1,7 +1,8 @@
 package com.example.cert
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.ProgressBar
 import androidx.viewpager2.widget.ViewPager2
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.remoteconfig.ktx.remoteConfig
@@ -9,15 +10,15 @@ import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
 import org.json.JSONArray
 import org.json.JSONObject
 
-class WordTest: AppCompatActivity() {
+class Memorization : AppCompatActivity() {
 
-    private val viewPagerWordTest: ViewPager2 by lazy {
-        findViewById(R.id.viewPagerWordTest)
+    private val viewPager: ViewPager2 by lazy {
+        findViewById(R.id.viewPager)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.word_test)
+        setContentView(R.layout.activity_memorization)
 
         initData()
     }
@@ -60,7 +61,7 @@ class WordTest: AppCompatActivity() {
     }
 
     private fun displayWordsPager(words: List<Words>, isNameRevealed: Boolean) {
-        viewPagerWordTest.adapter = WordsTestAdapter(
+        viewPager.adapter = WordsMemoryAdapter(
             words
         )
     }
