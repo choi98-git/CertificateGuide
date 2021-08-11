@@ -10,4 +10,11 @@
     <style name="SpinnerTheme" parent="Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@style/SpinnerStyle</item>
     </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/main</item>
+        <item name="android:textSize">20dp</item>
+
+    </style>
+
 </resources>

@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#CDFFEF">
 
     <TextView
         android:id="@+id/explanationTextView"
@@ -11,8 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="40dp"
         android:ellipsize="end"
+        android:fontFamily="@font/paybook"
         android:gravity="end|center_vertical"
         android:maxLines="6"
+        android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@id/wordTextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,11 +29,13 @@
         android:id="@+id/wordTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:ellipsize="end"
+        android:fontFamily="@font/munjae"
         android:gravity="end|center_vertical"
         android:maxLines="1"
+        android:textColor="@color/black"
         android:textSize="20sp"
-        android:layout_marginTop="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/explanationTextView"
         app:layout_constraintStart_toStartOf="@id/explanationTextView"

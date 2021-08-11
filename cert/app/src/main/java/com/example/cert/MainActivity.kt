@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,11 +26,13 @@ class MainActivity : AppCompatActivity() {
         findViewById(R.id.youtube)
     }
 
+    private var endCnt = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val dDayButton: Button = findViewById(R.id.dDaySetting)
+        val dDayButton: ImageButton = findViewById(R.id.dDaySetting)
         val dDayText = findViewById<TextView>(R.id.dDay)
 
         //  intent를 통해 넘어온 문자열을 difDate 변수에 담음
@@ -61,6 +64,15 @@ class MainActivity : AppCompatActivity() {
         studyButton.setOnClickListener {
             val intent = Intent(this, StudyActivity::class.java)
             startActivity(intent)
+        }
+    }
+
+    override fun onBackPressed() {
+        endCnt ++
+        Toast.makeText(this, "'뒤로' 버튼을 한번 더 누르시면 앱이 종료됩니다.",Toast.LENGTH_SHORT).show()
+        if(endCnt == 2) {
+            finish()
+            return
         }
     }
 }

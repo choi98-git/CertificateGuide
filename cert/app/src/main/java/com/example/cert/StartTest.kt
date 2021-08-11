@@ -19,14 +19,6 @@ class StartTest : AppCompatActivity() {
         findViewById(R.id.rv_list)
     }
 
-    private val next2Button: Button by lazy {
-        findViewById(R.id.nextButton)
-    }
-
-    private val pre2Button: Button by lazy {
-        findViewById(R.id.preButton)
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start_test)

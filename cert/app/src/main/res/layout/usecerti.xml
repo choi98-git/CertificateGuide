@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00CDA9"
     tools:context=".WhereUsing">
 
     <androidx.appcompat.widget.AppCompatButton
@@ -37,57 +38,39 @@
         tools:layout_editor_absoluteX="204dp"
         tools:layout_editor_absoluteY="16dp" />
 
-    <ImageView
-        android:layout_width="302dp"
-        android:layout_height="99dp"
-        android:layout_marginTop="80dp"
-        android:src="@drawable/adver"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ScrollView
-        android:layout_width="414dp"
-        android:layout_height="463dp"
-        android:layout_marginTop="180dp"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="408dp"
-            android:layout_height="488dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/main_menu_background"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.724">
+            app:layout_constraintVertical_bias="0.724"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
+                android:layout_marginTop="30dp"
                 android:text="자격 취득자는 정부기관, 언론기관, 교육 및 연구기관, 금융기관, 보험사, 병원 등 컴퓨터 시스템을 개발 및 운용하거나, 데이터 통신을 이용하여 정보처리를 시행하는 업체에 취업할 수 있으며 국가기술자격법에 의해 공공기관 및 일반기업 채용 시 그리고 보수, 승진, 전보, 신분보장 등에도 이용 가능하다."
                 android:textSize="20dp" />
 
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/exam2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_go"
+                android:fontFamily="@font/main"
+                android:layout_gravity="center|bottom"
+                android:text="시험 접수!" />
+
         </LinearLayout>
 
-    </ScrollView>
 
-    <Button
-        android:id="@+id/exam2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="시험 접수!"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="667dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,16 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#CDFFEF">
 
     <TextView
         android:id="@+id/question"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/paybook"
         android:maxLines="6"
+        android:textColor="@color/black"
         android:textSize="20sp"
-        android:layout_marginTop="10dp"
         app:layout_constraintBottom_toTopOf="@id/testImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,8 +35,8 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/testImage">
@@ -43,13 +46,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="1번 답" />
+            android:fontFamily="@font/munjae"
+            android:text="1번 답"
+            android:textSize="15dp"/>
+
 
         <RadioButton
             android:id="@+id/secondAnswer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/munjae"
             android:text="2번 답"
             app:layout_constraintTop_toBottomOf="@id/firstAnswer" />
 
@@ -58,6 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/munjae"
             android:text="3번 답"
             app:layout_constraintTop_toBottomOf="@id/secondAnswer" />
 
@@ -67,27 +75,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/munjae"
             android:text="4번 답"
             app:layout_constraintTop_toBottomOf="@id/thirdAnswer" />
     </RadioGroup>
 
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/correctButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_go"
+        android:fontFamily="@font/main"
         android:text="정답확인"
-        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/correctAnswer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

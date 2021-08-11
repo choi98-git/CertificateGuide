@@ -19,7 +19,5 @@ class HowToStudy : AppCompatActivity() {
         adapter.addFragment(Tip(), "Tip")
         after_login_viewpager.adapter = adapter
         after_login_tablayout.setupWithViewPager(after_login_viewpager)
-
-
     }
 }

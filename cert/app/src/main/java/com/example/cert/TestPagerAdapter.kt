@@ -61,6 +61,7 @@ class TestPagerAdapter (
                     val radioButton: RadioButton = itemView.findViewById(radioGroup.checkedRadioButtonId)
                         if (dap.text.toString().equals(radioButton.text.toString())) {
                             androidx.appcompat.app.AlertDialog.Builder(itemView.context)
+                                .setIcon(R.drawable.ic_done)
                                 .setTitle("정답")
                                 .setMessage("정답입니다!!")
                                 .setPositiveButton("확인",null)
@@ -68,6 +69,7 @@ class TestPagerAdapter (
                                 .show()
                         } else {
                             androidx.appcompat.app.AlertDialog.Builder(itemView.context)
+                                .setIcon(R.drawable.ic_baseline_clear_24)
                                 .setTitle("오답")
                                 .setMessage("오답입니다!!")
                                 .setPositiveButton("확인",null)
@@ -78,8 +80,6 @@ class TestPagerAdapter (
                         Toast.makeText(itemView.context, "정답을 선택해 주세요!!", Toast.LENGTH_SHORT).show()
                 }
             }
-
         }
-
     }
 }

@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/drawable/all_background.xml" value="0.35555555555555557" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/drawable/background_calender.xml" value="0.35555555555555557" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/drawable/background_menubtn.xml" value="0.35555555555555557" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/drawable/main_menu_background.xml" value="0.35555555555555557" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/activity_dday.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/activity_how_to_study.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/activity_main.xml" value="0.17046605876393112" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/activity_memorization.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/activity_schedule_certi.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/activity_what_certi.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/activity_where_certi.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/firstfragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/fourthfragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/item_test.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/item_word.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/item_word_memory.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/item_word_test.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/mainfragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/practical.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/secondfragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/start_test.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/study_filter.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/test_info.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/test_schedule.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/thirdfragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/tip.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/usecerti.xml" value="0.33" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/word_study.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/word_test.xml" value="0.36614583333333334" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/written.xml" value="0.33" />
+        <entry key="..\:/Certification_Guide-main (3)/Certification_Guide-main/cert/app/src/main/res/layout/written_test.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

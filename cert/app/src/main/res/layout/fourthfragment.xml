@@ -3,43 +3,60 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00CDA9"
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="311dp"
-        android:layout_height="158dp"
+        android:layout_width="291dp"
+        android:layout_height="125dp"
         android:layout_gravity="center"
         android:src="@drawable/qqqq" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/examGo"
-        android:layout_width="275dp"
-        android:layout_height="77dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/btn_go"
-        android:text="시험 접수"
-        android:textSize="35dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_menu_background"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/examGo"
+            android:layout_width="275dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_go"
+            android:text="시험 접수"
+            android:textColor="@color/black"
+            android:fontFamily="@font/main"
+            android:textSize="35dp"/>
 
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/enroll"
-        android:layout_width="275dp"
-        android:layout_height="77dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/btn_go"
-        android:text="회원가입"
-        android:textSize="35dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/enroll"
+            android:layout_width="275dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_go"
+            android:text="회원가입"
+            android:textColor="@color/black"
+            android:fontFamily="@font/main"
+            android:textSize="35dp"/>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appInstall"
-        android:layout_width="275dp"
-        android:layout_height="77dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/btn_go"
-        android:text="앱 다운로드"
-        android:textSize="35dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/appInstall"
+            android:layout_width="275dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_go"
+            android:text="앱 다운로드"
+            android:textColor="@color/black"
+            android:fontFamily="@font/main"
+            android:textSize="35dp"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

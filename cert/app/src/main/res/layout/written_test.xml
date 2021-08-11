@@ -2,57 +2,73 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="25dp"
-    android:orientation="vertical">
+    android:background="#00CDA9"
+    android:orientation="vertical"
+    android:paddingTop="30dp">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="정산기 필기 기출 풀기"
         android:layout_gravity="center"
-        android:textColor="#00ff00"
+        android:textColor="@color/white"
+        android:fontFamily="@font/main"
         android:textSize="30sp"
         android:textStyle="bold"
         android:layout_marginBottom="30dp">
-
     </TextView>
+
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center"
-        android:layout_marginBottom="20dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_menu_background"
+        android:paddingTop="30dp"
+        android:orientation="vertical">
 
-        <Spinner
-            android:id="@+id/subjectSpinner"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:theme="@style/SpinnerTheme" />
-
-        <Spinner
-            android:id="@+id/testDate"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:theme="@style/SpinnerTheme"/>
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <Spinner
+                android:id="@+id/subjectSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:theme="@style/SpinnerTheme" />
+
+            <Spinner
+                android:id="@+id/testDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/SpinnerTheme"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="풀어볼 과목과 년도를 선택해 주세요!!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"
+            android:paddingBottom="30dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/startTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_go"
+            android:fontFamily="@font/main"
+            android:text="도  전"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
-    <TextView
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="풀어볼 과목과 년도를 선택해 주세요!!"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:layout_marginBottom="20dp"/>
-
-    <Button
-        android:id="@+id/startTestBtn"
-        android:layout_marginTop="20dp"
-        android:text="풀기"
-        android:textStyle="bold"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
