@@ -20,7 +20,6 @@ public class FourthFragment : Fragment()
     ): View?
     {
         return inflater.inflate(R.layout.fourthfragment, container, false)
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

@@ -50,11 +50,11 @@ class WordTestPagerAdapter (
                 wordTextView.visibility = View.VISIBLE
                 when {
                     word.word.indexOf(wordAnswerEdt.text.toString()) > -1 -> {
-                        when {
+                        when { // 정답을 입력 안했을 때 예외 처리
                             wordAnswerEdt.text.toString().equals("") -> {
                                 Toast.makeText(itemView.context,"정답을 입력해 주세요!!", Toast.LENGTH_LONG).show()
                                 wordTextView.visibility = View.GONE
-                            }
+                            } //입력한 답이 정답일 경우
                             else -> AlertDialog.Builder(itemView.context)
                                 .setTitle("정답 확인")
                                 .setMessage("정답입니다!!\n 정답: ${word.word}")
@@ -63,7 +63,7 @@ class WordTestPagerAdapter (
                                 .show()
                         }
                     }
-                    else -> {
+                    else -> { //입력한 답이 오답일 경우
                         AlertDialog.Builder(itemView.context)
                             .setTitle("정답 확인")
                             .setMessage("오답입니다!!\n 정답: ${word.word}")

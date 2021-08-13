@@ -24,16 +24,18 @@ class Memorization : AppCompatActivity() {
     }
 
     private fun initData() {
+
         val remoteConfig = Firebase.remoteConfig
         remoteConfig.setConfigSettingsAsync(
+            //앱을 실행할 때마다 fetch가 이루어짐
             remoteConfigSettings {
                 minimumFetchIntervalInSeconds = 0
             }
         )
         remoteConfig.fetchAndActivate().addOnCompleteListener {
             if(it.isSuccessful) {
+                // firebase remoteConfig에서 words,is_word_revealed key 값을 가진 json 데이터를 가져와 저장함
                 val words = parseWordsJson(remoteConfig.getString("words")).shuffled()
-                //랜덤으로 단어 출력
                 val isWordRevealed = remoteConfig.getBoolean("is_word_revealed")
 
                 displayWordsPager(words,isWordRevealed)
@@ -43,10 +45,12 @@ class Memorization : AppCompatActivity() {
     }
 
     private fun parseWordsJson(json: String): List<Words> {
+        //json 파싱
         val jsonArray = JSONArray(json)
         var jsonList = emptyList<JSONObject>()
         for(index in 0 until jsonArray.length()) {
             val jsonObject = jsonArray.getJSONObject(index)
+            //jsonObject가 null이 아니면 jsonList에 이어 붙힘
             jsonObject?.let {
                 jsonList = jsonList + it
             }
@@ -59,7 +63,6 @@ class Memorization : AppCompatActivity() {
 
         }
     }
-
     private fun displayWordsPager(words: List<Words>, isNameRevealed: Boolean) {
         viewPager.adapter = WordsMemoryAdapter(
             words

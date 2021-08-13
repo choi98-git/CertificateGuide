@@ -67,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // 메인화면에서 count를 통해 뒤로가기 버튼 통한 종료 기능
     override fun onBackPressed() {
         endCnt ++
         Toast.makeText(this, "'뒤로' 버튼을 한번 더 누르시면 앱이 종료됩니다.",Toast.LENGTH_SHORT).show()

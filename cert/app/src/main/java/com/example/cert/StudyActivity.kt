@@ -31,6 +31,7 @@ class StudyActivity : AppCompatActivity() {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.study_filter)
 
+            // 하나의 체크박스가 테크되면 다른 체크박스는 체크 -> false
             writtenTest.setOnCheckedChangeListener { buttonView, isChecked ->
                 if (isChecked) {
                     wordStudy.isChecked = false
@@ -71,6 +72,7 @@ class StudyActivity : AppCompatActivity() {
 
             }
 
+            // 취소 버튼
             cancelButton.setOnClickListener {
                 writtenTest.isChecked = false
                 wordStudy.isChecked = false

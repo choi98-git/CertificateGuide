@@ -24,7 +24,7 @@ class WrittenTest: AppCompatActivity() {
         val subjectSpinner = findViewById<Spinner>(R.id.subjectSpinner)
         val testDateSpinner = findViewById<Spinner>(R.id.testDate)
 
-
+    // arrayAdapter를 통해 생성한 array를 Spinner에 적용
         subjectSpinner.adapter = ArrayAdapter.createFromResource(this,R.array.Subject,
             android.R.layout.simple_spinner_item)
 
@@ -36,6 +36,7 @@ class WrittenTest: AppCompatActivity() {
             val selectedYear: String = subjectSpinner.selectedItem.toString()
             val selectedCount: String = testDate.selectedItem.toString()
 
+            // 시험 년도와 회차를 선택 안했을 경우 예외 처리
             if(selectedCount != "시험 회차" && selectedYear != "년도") {
                 val intent = Intent(this,StartTest::class.java)
                 intent.putExtra("selectedYear","$selectedYear" )

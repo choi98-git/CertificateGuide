@@ -41,12 +41,15 @@ class StartTest : AppCompatActivity() {
                 // 실패할 경우
                 Log.w("StartTest", "Error getting documents: $exception")
             }
+
         nextButton.setOnClickListener {
+            // rv_list에 그려지는 뷰의 현재 position 값을 가져와 1증가시킴
             val current = rv_list.currentItem
             rv_list.setCurrentItem(current + 1, false)
 
         }
         preButton.setOnClickListener {
+            // rv_list에 그려지는 뷰의 현재 position 값을 가져와 1감소시킴
             val current = rv_list.currentItem
             rv_list.setCurrentItem(current - 1, false)
         }
